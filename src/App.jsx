@@ -106,11 +106,11 @@ function App() {
       {/*Contenido Home*/}
       <div
         className="flex flex-col relative rounded rounded-[35px] mt-4 mx-6
-      mb-40 overflow-hidden
+      mb-20 overflow-hidden border boder-gray-300
       "
       >
         {/*Left home*/}
-        <div className="w-full bg-blue-100 p-4 ">
+        <div className="w-full bg-blue-100 p-4  pt-8">
           <div className="flex justify-between w-max mb-4 bg-white p-2 gap-4 rounded-full">
             <span className="flex h-5 w-5">
               <img
@@ -121,7 +121,7 @@ function App() {
             <span className="text-sm text-gray-500 text-bold">Hot Recipes</span>
           </div>
 
-          <div className="flex flex-col justify-center items-start gap-4">
+          <div className="flex flex-col justify-center items-start gap-6">
             <h1 className="font-bold text-4xl">Spicy delicious</h1>
             <span className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
@@ -179,10 +179,10 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 mt-12">
+          <div className="flex flex-col gap-4 mt-12 p-4">
             {/*User */}
             <div className="flex items-center">
-              <span className="block w-8 h-8 rounded-fulll overflow-hidden">
+              <span className="flex items-center justify-center w-16 h-16 rounded-fulll overflow-hidden">
                 <img src="/img/user.png"></img>
               </span>
 
@@ -229,10 +229,10 @@ function App() {
         </div>
 
         {/*Right home */}
-        <div className="w-full bg-red-100">
+        <div className="w-full bg-gray-300 p-6">
           <img
             src="/img/imageHome.png"
-            className="w-full h-[43%] object-cover"
+            className="w-full h-[43%] object-cover rounded-[40px]"
           ></img>
         </div>
       </div>
