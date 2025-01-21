@@ -111,7 +111,7 @@ function App() {
       >
         {/*Left home*/}
         <div className="w-full bg-blue-100 p-4  pt-8">
-          <div className="flex justify-between w-max mb-4 bg-white p-2 gap-4 rounded-full">
+          <div className="flex justify-between w-max mb-8 bg-white py-2 pl-2 pr-10 gap-2 rounded-full">
             <span className="flex h-5 w-5">
               <img
                 src="/svg/mesaIconHome.png"
@@ -229,7 +229,7 @@ function App() {
         </div>
 
         {/*Right home */}
-        <div className="w-full bg-gray-300 p-6">
+        <div className="w-full bg-gray-100 p-6">
           <img
             src="/img/imageHome.png"
             className="w-full h-[43%] object-cover rounded-[40px]"
